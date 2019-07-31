@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="225.0" layoutY="84.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="102.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="222.0" layoutY="8.0" text="ESIQuiz">
+                     <font>
+                        <Font name="System Bold" size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="userName" layoutX="175.0" layoutY="109.0" prefHeight="46.0" prefWidth="250.0" promptText="Nom d'utilisateur" />
+                  <PasswordField fx:id="password" layoutX="174.0" layoutY="167.0" prefHeight="44.0" prefWidth="252.0" promptText="Mot de passe" />
+                  <ImageView fitHeight="117.0" fitWidth="174.0" layoutX="237.0" layoutY="-28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Sans%20titre%20-%201.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="seconnecter" layoutX="153.0" layoutY="227.0" mnemonicParsing="false" onAction="#seConnecter" prefHeight="41.0" prefWidth="139.0" style="-fx-background-color: #5ab4ef; -fx-background-radius: 50;" text="Se Connecter" textFill="WHITE" />
+                  <Button fx:id="fermer" layoutX="305.0" layoutY="227.0" mnemonicParsing="false" onAction="#fermerClick" prefHeight="41.0" prefWidth="139.0" style="-fx-background-color: rEd; -fx-background-radius: 50;" text="Fermer" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="222.0" layoutY="100.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox prefHeight="48.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="47.0" prefWidth="601.0" text="Ajouter Question" textAlignment="CENTER">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="28.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="27.0" prefWidth="174.0" text="Type de Question " textAlignment="CENTER" />
+                  <ComboBox fx:id="typeQuestion" prefWidth="150.0" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="86.0" prefHeight="65.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="67.0" prefWidth="173.0" text="Enoncé" />
+                  <TextArea fx:id="enonce" prefHeight="56.0" prefWidth="208.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="67.0" prefWidth="173.0" text="les Propositions " />
+                  <TextArea fx:id="propositions" prefHeight="100.0" prefWidth="208.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="67.0" prefWidth="173.0" text="les reponses justes " />
+                  <TextArea fx:id="repsJustes" prefHeight="100.0" prefWidth="208.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane prefHeight="62.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="validez" alignment="CENTER" layoutX="200.0" layoutY="38.0" mnemonicParsing="false" onAction="#validerClick" prefHeight="48.0" prefWidth="144.0" text="Validez" textAlignment="CENTER" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

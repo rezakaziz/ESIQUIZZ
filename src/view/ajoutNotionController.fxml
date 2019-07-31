@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="54.0" prefWidth="270.0" text="Ajouter Notion" textAlignment="CENTER">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <HBox prefHeight="51.0" prefWidth="600.0">
+               <children>
+                  <Label prefHeight="47.0" prefWidth="149.0" text="Nom de la formation" />
+                  <ComboBox fx:id="listFormation" prefHeight="42.0" prefWidth="181.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label prefHeight="18.0" prefWidth="151.0" text="Description Notion" />
+                  <TextArea fx:id="descrNotion" prefHeight="100.0" prefWidth="239.0" />
+               </children>
+            </HBox>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="ajouterQuestion" layoutX="206.0" layoutY="24.0" mnemonicParsing="false" onAction="#ajouterQuestionClick" prefHeight="42.0" prefWidth="140.0" text="AjouterQuestion" />
+                  <Button fx:id="validerNotion" layoutX="206.0" layoutY="92.0" mnemonicParsing="false" onAction="#validerNotionClick" prefHeight="42.0" prefWidth="140.0" text="Valider" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+   <padding>
+      <Insets top="20.0" />
+   </padding>
+</AnchorPane>
