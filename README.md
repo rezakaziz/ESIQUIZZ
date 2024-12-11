@@ -1,5 +1,68 @@
-# ESIQUIZ
-ESIQuiz fait l'objet d'un TP réalisé en 2CP à l'ecole superieure d'informatique a alger.
-  ESIQuiz est destinée à faciliter à un formateur l’évaluation des apprenants à travers la génération et l’évaluation automatique de quiz, ainsi que la consultation des résultats des apprenants. L’application peut être utilisée par le formateur et ses apprenants à travers un compte défini par un nom de compte (login) et un mot de passe. Pour y accéder, l’utilisateur doit s’authentifier en tant que formateur ou en tant qu’apprenant. Elle permet au formateur de créer des quiz, les sauvegarder, les modifier ou les supprimer mais aussi de gérer son groupe d’apprenants en leur créant des comptes qui leur serviront à accéder aux quizs.
-   Dans ce TP, on etait amené a realiser juste une partie de l'application face au circonstance de pays. Il est a noté que le TP ne visait pas trop la partie graphique alors on n'a pas passé trop de temps sur cette partie. Aprés avoir realisé le noyau de notre application nous avons essayé d'implementer une petite interface graphique afin d'essayer les fonctionnalités.
+# ESIQUIZ  
+
+**ESIQUIZ** est une application développée dans le cadre d’un TP en **2CP** à l’**École Supérieure d'Informatique d'Alger**. Le projet vise à mettre en pratique les **concepts fondamentaux de la Programmation Orientée Objet (POO)** en Java à travers une application de quiz simple et fonctionnelle.
+
+---
+
+## 🎯 Objectif Pédagogique  
+
+L’objectif principal de ce projet est :  
+- Appliquer les concepts clés de la **POO** : **classes**, **objets**, **héritage**, **encapsulation** et **polymorphisme**.  
+- Développer une **application modulaire** et facile à comprendre.  
+- Créer une **interface utilisateur basique** avec **JavaFX** pour démontrer les fonctionnalités.  
+
+---
+
+## 🚀 Fonctionnalités  
+
+### Pour les formateurs :  
+- Créer, modifier et supprimer des quiz.  
+- Gérer les comptes des apprenants.  
+
+### Pour les apprenants :  
+- S'authentifier avec un identifiant et un mot de passe.  
+- Répondre aux questions d’un quiz.  
+- Voir les résultats après avoir terminé le quiz.  
+
+---
+
+## 🛠️ Technologies Utilisées  
+
+- **Langage** : Java  
+- **Interface utilisateur** : JavaFX  
+- **Paradigme** : Programmation Orientée Objet (POO)  
+
+---
+
+## 💻 Installation et Exécution  
+
+1. **Cloner le projet** :  
+   ```bash  
+   git clone https://github.com/rezakaziz/ESIQUIZ.git  
+   cd ESIQUIZ  
+   ```  
+
+2. **Configurer JavaFX** :  
+   - Téléchargez **JavaFX SDK**.  
+   - Configurez le chemin du SDK dans votre IDE (IntelliJ IDEA, Eclipse, etc.).  
+
+3. **Exécuter l'application** :  
+   - Lancez la classe principale depuis votre IDE.  
+
+---
+
+## 🎓 Points d'Apprentissage  
+
+- Maîtriser les principes de la **Programmation Orientée Objet** (POO).  
+- Structurer un projet Java de manière modulaire.  
+- Implémenter une interface utilisateur simple avec **JavaFX**.  
+
+---
+
+## 🤝 Contributeurs  
+
+- **Rezak AZIZ**  
+- **Zine Eddine FODIL**  
+
+---
 
